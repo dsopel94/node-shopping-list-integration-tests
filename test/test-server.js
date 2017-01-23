@@ -201,7 +201,7 @@ describe('Recipes', function() {
       })
       // prove that the PUT request has right status code
       // and returns updated item
-      .then(function(res) {
+      .then(function(res) { //Random comment
         res.should.have.status(200);
         res.should.be.json;
         res.body.should.be.a('object');
