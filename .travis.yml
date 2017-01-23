@@ -2,8 +2,5 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key:
-    secure: MOoMbAnPwScD+k7bEx3HMBdOpcanZ65925bYn7+CRqBLgCCKv7EK7obUyyx5TU3M4royVWHFR4dJ0UMBLO92Eioa5tnSlPhx+VFDtuZcktz9rbfktdAyRC92ouJQlWd/HXlF5Af3lERzLaR3BC+Y5jwSU3R7xr+JtpeVz9kr34TDIar6dAwkbyYSkBB+Cdtcy6u6Y9Fmk49SZVgF55uy31taV40B+0LnH197OwNZIGW+uGlyctQBxs+ZxOjOsiqfQpgGT9sMNuUkQWVURTqr/KpNUp4tjWJpQY4A3/MoNpaXioN1Za4bcV+E6GDhl8xLakn7+7MbGrpv4GbdNAKEt2jHCLdwirr8sGIyxG2iX7WCbXVwJKyd2TMAM5J4ySswA7t6jzjYtEv/SPUoVyJJc7ioGzf7A71KAavpZsb8CtW+OqTHVvfJUFcSx8eKr60SReDgUgjBef1sM9swqMp4KNaJ8ZeSdwP5zclHU8TV2kHROzBdXS3OKcEZ9kgaq8JDdSgqPLTy2vG5arQ0QFTo2Bq5QqzqVZSg1f/+6AGEVZ86pIvSwfmKq9MvQUPtX+f9LMmAEXh7mnylxXg8exknBw7gM81n6zwxOLAF4UGAGSv0O+LcGG08hmNM167+cfTEa9C3Zs4+1HZkjSD1VF396lf9MozW1mLHWRL2P2iO2nU=
+  api_key: a1054561-4e3c-4e22-bdf0
   app: whispering-eyrie-68961
-  on:
-    repo: dsopel94/node-shopping-list-integration-tests
