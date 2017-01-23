@@ -171,10 +171,10 @@ describe('Recipes', function() {
   it('should add an item on POST', function() {
     return chai.request(app)
       .post('/recipes')
-      .then(function(res)) {
+      .then(function(res) {
         res.should.include('name','ingredients')
         res.body.id.should.not.be.null;
-    }
+      })
   })
 
   it('should delete items on DELETE', function() {
