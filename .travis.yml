@@ -4,3 +4,5 @@ deploy:
   provider: heroku
   api_key: a1054561-4e3c-4e22-bdf0
   app: whispering-eyrie-68961
+  on:
+    repo: dsopel94/node-shopping-list-integration-tests
